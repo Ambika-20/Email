@@ -1,2 +1,10 @@
 # Email
-Email using Alphanumeric
+#Email using Alphanumeric
+email_list = ["joonie@gmail.com","wwhjin@gmail.com","meowmeow@gmail.com","sunshine@gmail.com","chimmy@gmail.com","tatamic@gmail.com","bunny@gmail.com"]
+email = input("Enter your email:")
+email = email.lower()
+print(email)
+if email in email_list:
+    print("Welcome user")
+else:
+    print("You are not a user")
