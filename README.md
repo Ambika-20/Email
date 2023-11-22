@@ -1,5 +1,5 @@
 # Email
-#Email using Alphanumeric
+#Email using lowercase
 email_list = ["joonie@gmail.com","wwhjin@gmail.com","meowmeow@gmail.com","sunshine@gmail.com","chimmy@gmail.com","tatamic@gmail.com","bunny@gmail.com"]
 email = input("Enter your email:")
 email = email.lower()
